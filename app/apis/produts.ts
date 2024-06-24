@@ -24,8 +24,3 @@ export async function fetchProductById(id: string) {
   }
   return response.json()
 }
-
-/*   // สร้างฟังก์ชันที่รอ 2 วินาที
-  const wait = (ms: any) => new Promise(resolve => setTimeout(resolve, ms));
-  // รอ 2 วินาที
-  await wait(2000); */
